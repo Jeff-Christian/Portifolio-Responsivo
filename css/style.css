@@ -126,3 +126,7 @@ header #toggle::after{
     font-weight: 600;
     text-transform: uppercase;
 }
+
+.content{
+    max-width: 600px;
+}
