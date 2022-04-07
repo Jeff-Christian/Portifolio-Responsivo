@@ -12,7 +12,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 40px 100px;
     /* Ainda não entendo a funcionalidade do z-index */
     z-index: 10000;
     transition: 0.6s;
@@ -20,8 +20,9 @@ header{
 
 header .logo{
     position: relative;
-    width: 150px;
+    width: 300px;
     transition: 0.6s;
+    bottom: 110px;
 }
 
 /* Logo Escrita 
