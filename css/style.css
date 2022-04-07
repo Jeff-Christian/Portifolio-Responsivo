@@ -84,8 +84,22 @@ header #toggle::after{
     display: flex;
     align-items: center;
     transition: 0.5s;
+    z-index: 2;
 }
 
 .banner.active{
     transform: translateX(-400px);
+}
+
+#navigation{
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 400px;
+    height: 100vh;
+    background: #e0a791;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
 }
