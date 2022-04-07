@@ -103,3 +103,7 @@ header #toggle::after{
     place-items: center;
     transition: 0.5s;
 }
+
+#navigation.active{
+    right: 0%;
+}
