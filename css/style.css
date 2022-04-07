@@ -62,6 +62,18 @@ header #toggle::after{
     background: #fff;
 }
 
+.banner.active header #toggle::before{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.banner.active header #toggle::after{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
 .banner{
     position: relative;
     width: 100%;
@@ -71,4 +83,23 @@ header #toggle::after{
     background-size: cover;
     display: flex;
     align-items: center;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.banner.active{
+    transform: translateX(-400px);
+}
+
+#navigation{
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 400px;
+    height: 100vh;
+    background: #e0a791;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
 }
