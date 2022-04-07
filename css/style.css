@@ -43,6 +43,7 @@ header .logo{
     min-height: 100vh;
     padding: 100px;
     background: url(./ocean-pf.jpg);
+    background-size: cover;
     display: flex;
     align-items: center;
 }
