@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio Responsivo</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/379bd22805.js" crossorigin="anonymous"></script>
+    <script src="./js/toggle.js"></script>
 </head>
 
 <body>
@@ -34,14 +36,23 @@
             <li><a href="#">Contato</a></li>
         </ul>
     </div> 
-    <script type="text/javascript">
-        function toggle(){
-            var sec = document.getElementById('sec');
-            var nav = document.getElementById('navigation');
-            sec.classList.toggle('active');
-            nav.classList.toggle('active');
-        }
-    </script>
+    <div id="introduction-me" onclick="toogle()">
+        <div>
+            <img class="imgCircle" src="./img/image-circle.png" alt="">
+        </div>
+        <div id="introduction-info">
+            <h1>Jéfferson Christian</h1>
+            <p> Estudante Front End e desenvolvedor web </p>
+            <p> Conhecimento web com imersão em HTML5, CSS3, JavaScript e Angular</p>
+        
+            <ul class="social-media">
+                <li><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp-square"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github-square"></i></a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>
